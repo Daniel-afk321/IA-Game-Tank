@@ -41,11 +41,9 @@ https://github.com/Daniel-afk321/IA-Game-Tank
 ## Pré-requisitos ⚠️ 
 qualquer tipo de computador
 
-Aparelho utilizado para testes: computador
-
 Dependencias e libs que o usuário deve ter instalados na máquina para rodar a aplicação.
 
-1.Ter um computador
+1.Ter um computador com windows
 
 ## Como rodar a aplicação 
 
@@ -55,6 +53,7 @@ Dependencias e libs que o usuário deve ter instalados na máquina para rodar a 
 
 ## Linguagens, dependencias e libs utilizadas 📚
 Unity 3D
+C#
 
 ## Resolvendo Problemas 
 
