@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7AA187D7-FCB8-0D71-7B1F-CE65AD101685}</ProjectGuid>
+    <ProjectGuid>{7A8874E4-E5D2-BD33-F28D-6113BB20B0AB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -82,11 +82,11 @@
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Components\BloomComponent.cs" />
-    <Compile Include="Assets\Graphs\WPManager.cs" />
+    <Compile Include="Assets\Script\WPManager.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-    <Compile Include="Assets\WaypointDebug.cs" />
-    <Compile Include="Assets\Graphs\FollowPath.cs" />
+    <Compile Include="Assets\Script\WaypointDebug.cs" />
+    <Compile Include="Assets\Script\FollowPath.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
