@@ -4,9 +4,9 @@ using UnityEngine;
 public class FollowPath : MonoBehaviour
 {
     Transform goal;
-    public float speed = 5.0f;
-    public float accuracy = 1.0f;
-    public float rotSpeed = 2.0f;
+     float speed = 5.0f;
+     float accuracy = 1.0f;
+     float rotSpeed = 2.0f;
 
     public GameObject wpManager;
     GameObject[] wps;
@@ -39,7 +39,7 @@ public class FollowPath : MonoBehaviour
     //Faz o tank ir para o waypoint 8
     public void GoToFabri()
     {
-        g.AStar(currentNode, wps[9]);
+        g.AStar(currentNode, wps[8]);
         currentWP = 0;
     }
 
@@ -48,15 +48,15 @@ public class FollowPath : MonoBehaviour
     {
         //Se o G for zero ou o waypoint atual for igual a G, retornará
         if (g.getPathLength() == 0 || currentWP == g.getPathLength())
+        {
             return;
-
+        }
 
         //O nó que estará mais próximo neste momento
         currentNode = g.getPathPoint(currentWP);
 
-
         //se estivermos mais próximo bastante do nó o tanque se moverá para o próximo
-        if (Vector3.Distance(g.getPathPoint(currentWP).transform.position,transform.position) < accuracy)
+        if (Vector3.Distance(g.getPathPoint(currentWP).transform.position, transform.position) < accuracy)
         {
             currentWP++;
         }
@@ -67,13 +67,12 @@ public class FollowPath : MonoBehaviour
             goal = g.getPathPoint(currentWP).transform;
 
             //Faz o tank olhar para a direção do seu destino
-            Vector3 lookAtGoal = new Vector3(goal.position.x,this.transform.position.y,goal.position.z);
+            Vector3 lookAtGoal = new Vector3(goal.position.x, this.transform.position.y, goal.position.z);
             Vector3 direction = lookAtGoal - this.transform.position;
 
             //Faz o tank andar para a direção determinada e também uma curva ao ir ao local
-            this.transform.rotation = Quaternion.Slerp(this.transform.rotation,
-            Quaternion.LookRotation(direction),
-            Time.deltaTime * rotSpeed);
+            this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotSpeed);
+            this.transform.Translate(direction.normalized * speed * Time.deltaTime);
         }
     }
 }
