@@ -72,7 +72,7 @@ public class FollowPath : MonoBehaviour
 
             //Faz o tank andar para a direção determinada e também uma curva ao ir ao local
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotSpeed);
-            this.transform.Translate(direction.normalized * speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, goal.position, speed * Time.deltaTime);
         }
     }
 }
