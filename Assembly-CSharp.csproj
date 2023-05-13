@@ -106,6 +106,8 @@
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Script\NavMeshManager.cs" />
+    <Compile Include="Assets\Script\AIControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TANKASSETS\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
