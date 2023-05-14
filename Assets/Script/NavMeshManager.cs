@@ -9,8 +9,8 @@ public class NavMeshManager : MonoBehaviour
 
     private void Start()
     {
-        //Procurando os agentes pela tag do tipo ai
-        agents = GameObject.FindGameObjectsWithTag("ai");
+        //Procurando os agentes pela tag do tipo IA
+        agents = GameObject.FindGameObjectsWithTag("IA");
     }
 
     private void Update()
