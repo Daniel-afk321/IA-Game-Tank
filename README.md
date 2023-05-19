@@ -33,19 +33,25 @@
 
 ## Funcionalidades ⚙️
 
-✔️ clicar na tela para que o tank possa andar.
+✔️ Clique nos 3 botoes para fazer o tank se movimentar, para o heliporto ou ruínas, ou fábrica.
 
 ## Distribuição
 https://github.com/Daniel-afk321/IA-Game-Tank
 
 ## Pré-requisitos ⚠️ 
+
 qualquer tipo de computador
+
+Caso for abrir na unity utilizar a versão: 2020.3.30f1
 
 Dependencias e libs que o usuário deve ter instalados na máquina para rodar a aplicação.
 
 1.Ter um computador com windows
+2.Caso for abrir na unity, ter a Unity.
 
 ## Como rodar a aplicação 
+
+Clique em um dos 3 botoes para que o tank se mova em pontos específicos, como para o heliporto ou ruínas, ou fábrica.
 
 ## Testes realizados
 
