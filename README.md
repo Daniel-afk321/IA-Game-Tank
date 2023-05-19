@@ -42,16 +42,20 @@ https://github.com/Daniel-afk321/IA-Game-Tank
 
 qualquer tipo de computador
 
+
 Caso for abrir na unity utilizar a versão: 2020.3.30f1
 
 Dependencias e libs que o usuário deve ter instalados na máquina para rodar a aplicação.
 
 1.Ter um computador com windows
+
+
 2.Caso for abrir na unity, ter a Unity.
 
 ## Como rodar a aplicação 
+1.Abra o projeto na Unity
 
-Clique em um dos 3 botoes para que o tank se mova em pontos específicos, como para o heliporto ou ruínas, ou fábrica.
+2.Clique em um dos 3 botoes para que o tank se mova em pontos específicos, como para o heliporto ou ruínas, ou fábrica.
 
 ## Testes realizados
 
@@ -59,6 +63,7 @@ Clique em um dos 3 botoes para que o tank se mova em pontos específicos, como p
 
 ## Linguagens, dependencias e libs utilizadas 📚
 Unity 3D
+
 C#
 
 ## Resolvendo Problemas 
