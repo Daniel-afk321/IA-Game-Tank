@@ -33,7 +33,7 @@
 
 ## Funcionalidades ⚙️
 
-✔️ clicar na tela para que o tank possa andar.
+✔️ Clique no mapa em qualquer parte, para que o tank se mova.
 
 ## Distribuição
 https://github.com/Daniel-afk321/IA-Game-Tank
@@ -41,11 +41,20 @@ https://github.com/Daniel-afk321/IA-Game-Tank
 ## Pré-requisitos ⚠️ 
 qualquer tipo de computador
 
+
+Caso for abrir na unity utilizar a versão: 2020.3.30f1
+
 Dependencias e libs que o usuário deve ter instalados na máquina para rodar a aplicação.
 
 1.Ter um computador com windows
 
+
+2.Caso for abrir na unity, ter a Unity.
+
 ## Como rodar a aplicação 
+1.Abra o projeto na Unity
+
+2.Clique em qualquer parte do mapa, para o tank se movimentar, onde foi clicado.
 
 ## Testes realizados
 
@@ -53,6 +62,7 @@ Dependencias e libs que o usuário deve ter instalados na máquina para rodar a 
 
 ## Linguagens, dependencias e libs utilizadas 📚
 Unity 3D
+
 C#
 
 ## Resolvendo Problemas 
