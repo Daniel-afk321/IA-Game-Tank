@@ -58,6 +58,17 @@ Dependencias e libs que o usuário deve ter instalados na máquina para rodar a 
 
 ## Testes realizados
 
+![nv](https://github.com/Daniel-afk321/IA-Game-Tank/assets/83432335/19518c82-ae1d-48c3-b98e-3bd56b2953b9)
+
+===========================================================================
+
+![nv1](https://github.com/Daniel-afk321/IA-Game-Tank/assets/83432335/b6fd1606-b38b-46b8-9851-472c87e76fcc)
+
+===========================================================================
+
+![nv2](https://github.com/Daniel-afk321/IA-Game-Tank/assets/83432335/3d19271e-95ca-42fe-b403-347e831f24b2)
+
+===========================================================================
 ## Banco de Dados 🗂️
 
 ## Linguagens, dependencias e libs utilizadas 📚
