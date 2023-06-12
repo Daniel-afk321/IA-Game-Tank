@@ -784,22 +784,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 615245888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a9ba15e04020854fac059348249cdf9, type: 3}
+  m_Script: {fileID: 11500000, guid: bfc7e28ae420dce4da04ecf3227c658f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &615245891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615245888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ece81ae64894544a9269f7089d54dd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 615245892}
 --- !u!195 &615245892
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2237,7 +2224,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: c58838a1d6c17484393fa08cdb7f059d, type: 3}
       propertyPath: m_TagString
-      value: IA
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c58838a1d6c17484393fa08cdb7f059d, type: 3}
       propertyPath: m_RootOrder
