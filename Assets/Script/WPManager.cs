@@ -31,10 +31,10 @@ public class WPManager : MonoBehaviour
             }
             foreach (Link l in links)
             {
-                //Adiciona uma aresta do nó 1 ao nó 2
+                //Conecta o nó 1 ao nó 2 adicionando uma aresta entre eles.
                 graph.AddEdge(l.node1, l.node2);
                 if (l.dir == Link.direction.BI)
-                    //Adiciona uma aresta ao contrário da anterior
+                    //Conecta o nó 2 ao nó 1 adicionando uma aresta no sentido oposto à anterior.
                     graph.AddEdge(l.node2, l.node1);
             }
         }

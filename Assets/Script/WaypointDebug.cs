@@ -5,6 +5,9 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class WaypointDebug : MonoBehaviour {
 
+	// Esta função é usada para renomear os objetos com a tag "wp" na cena.
+	// Os objetos são renomeados com o formato "WP" seguido de um número sequencial de três dígitos.
+	// O contador 'i' é usado para garantir a numeração correta dos objetos.
 	void RenameWPs(GameObject overlook)
 	{
 		GameObject[] gos;
@@ -19,7 +22,7 @@ public class WaypointDebug : MonoBehaviour {
 	     	} 
 	    }	
 	}
-
+	//Esta função é executada quando o objeto que contém esse script é destruído.
 	void OnDestroy()
 	{
 		RenameWPs(this.gameObject);

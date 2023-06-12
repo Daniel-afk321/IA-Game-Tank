@@ -46,22 +46,22 @@ public class FollowPath : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        //Se o G for zero ou o waypoint atual for igual a G, retornará
+        //Se o valor de G for igual a zero ou se o waypoint atual for igual a G, será retornado.
         if (g.getPathLength() == 0 || currentWP == g.getPathLength())
         {
             return;
         }
 
-        //O nó que estará mais próximo neste momento
-        currentNode = g.getPathPoint(currentWP);
+        //O nó que esta mais próximo atualmente.
+                currentNode = g.getPathPoint(currentWP);
 
-        //se estivermos mais próximo bastante do nó o tanque se moverá para o próximo
+        //Se a distância entre a posição do ponto de caminho atual e a posição do objeto for menor que a definida, o tanque se moverá para o próximo caminho
         if (Vector3.Distance(g.getPathPoint(currentWP).transform.position, transform.position) < accuracy)
         {
             currentWP++;
         }
 
-        //Se o tamanho do caminho for maior que o waypoint atual
+        //Se o número de elementos no caminho for maior do que o índice do waypoint atual, executa o código.
         if (currentWP < g.getPathLength())
         {
             goal = g.getPathPoint(currentWP).transform;
@@ -70,7 +70,7 @@ public class FollowPath : MonoBehaviour
             Vector3 lookAtGoal = new Vector3(goal.position.x, this.transform.position.y, goal.position.z);
             Vector3 direction = lookAtGoal - this.transform.position;
 
-            //Faz o tank andar para a direção determinada e também uma curva ao ir ao local
+            //Faz o tank andar para a direção determinada e faz tambem a rotação ser ajustada em direção à rotação desejada, calculada a partir da direção especificada. 
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotSpeed);
             transform.position = Vector3.MoveTowards(transform.position, goal.position, speed * Time.deltaTime);
         }
